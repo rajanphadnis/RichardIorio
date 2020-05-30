@@ -1,0 +1,5 @@
+MainPackage=C:\Users\Rajan Phadnis\Desktop\Rodojo\CaddyApp\MyCaddy\MyCaddy\bin\ARM64\Release\Upload\MyCaddy_1.0.1.0_ARM64.appx
+ResourcePack=C:\Users\Rajan Phadnis\Desktop\Rodojo\CaddyApp\MyCaddy\MyCaddy\bin\ARM64\Release\Upload\MyCaddy_1.0.1.0_scale-100.appx
+ResourcePack=C:\Users\Rajan Phadnis\Desktop\Rodojo\CaddyApp\MyCaddy\MyCaddy\bin\ARM64\Release\Upload\MyCaddy_1.0.1.0_scale-125.appx
+ResourcePack=C:\Users\Rajan Phadnis\Desktop\Rodojo\CaddyApp\MyCaddy\MyCaddy\bin\ARM64\Release\Upload\MyCaddy_1.0.1.0_scale-150.appx
+ResourcePack=C:\Users\Rajan Phadnis\Desktop\Rodojo\CaddyApp\MyCaddy\MyCaddy\bin\ARM64\Release\Upload\MyCaddy_1.0.1.0_scale-400.appx

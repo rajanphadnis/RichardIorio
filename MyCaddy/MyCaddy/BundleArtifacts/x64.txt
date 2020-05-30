@@ -1,0 +1,1 @@
+MainPackage=C:\Users\Rajan Phadnis\Desktop\Rodojo\CaddyApp\MyCaddy\MyCaddy\bin\x64\Release\MyCaddy_1.0.1.0_x64.appx

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="About Us: Professional Caddy Services - MyCaddy App">
+    <title>MyCaddy&trade; - About</title>
+    <link rel="stylesheet" href="../test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <ul>
+            <li style="text-align: center;">
+                <a id="a" href="javascript:void(0);" style="font-size:20px; padding: 5px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+            <li id="b" style="text-align: center;">
+                <a href="/" style="font-size:20px; padding: 5px;" class="">MyCaddy&trade;</a>
+            </li>
+            <script>
+                function myFunction() {
+                    if (document.getElementById("h").offsetParent == null) {
+                        document.getElementById("b").style.display = "none";
+                        document.getElementById("h").style.display = "block";
+                        document.getElementById("i").style.display = "block";
+                        document.getElementById("j").style.display = "block";
+                        document.getElementById("k").style.display = "block";
+                        document.getElementById("openAppButtonTitle").style.display = "block";
+                        document.getElementById("a").innerHTML = "&times;";
+                    } else {
+                        document.getElementById("h").style.display = "none";
+                        document.getElementById("i").style.display = "none";
+                        document.getElementById("j").style.display = "none";
+                        document.getElementById("k").style.display = "none";
+                        document.getElementById("openAppButtonTitle").style.display = "none";
+                        document.getElementById("b").style.display = "block";
+                        document.getElementById("a").innerHTML = "&#9776;";
+                    }
+                    console.log("function triggereed");
+                }
+            </script>
+            <li id="h">
+                <a href="/">
+                    <h1>MyCaddy&trade;</h1>
+                </a>
+            </li>
+            <li id="i">
+                <a href="/how">
+                    <h1>How It Works</h1>
+                </a>
+            </li>
+
+            <li id="k">
+                <a href="/about" id="aboutLink">
+                    <h1>About</h1>
+                </a>
+            </li>
+            <li id="j">
+                <a href="/faq" id="mediaLink">
+                    <h1>FAQ</h1>
+                </a>
+            </li>
+            <li id="openAppButtonTitle">
+                <a href="https://mycaddyapp.org/">
+                    <h1>Open App</h1>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="MobileContent">
+        <h1 id="aboutTitlePart">About Us</h1>
+        <br/>
+        <div id="imageDivAboutM">
+            <div>
+                <div id="imgDivAbout">
+                    <img src="../images/app_home_60.png" alt="app home page - mobile">
+                </div>
+                <p id="paragraphAboutDescription">My Caddy is a contracting platform that allows players to connect directly to caddies to provide services. Players can book services for single players, groups of all sizes, including corporate events and PGA Pro Ams. There are currently many world-renowned golf courses in Southern California and beyond that allow players to bring a caddy to their golf course through our platform.</p>
+                <div id="socials">
+                    <a href="https://www.facebook.com/mycaddygolf/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/mycaddyapp/" class="fa fa-instagram"></a>
+                    <a href="maito:contact@mycaddy.org" class="fa fa-envelope"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="MainContent">
+        <div id="AboutFlexBox">
+            <h1 id="aboutTitlePart">About Us</h1>
+            <br/>
+            <div id="imageDivAbout">
+                <div id="imgDivAbout">
+                    <img src="../images/app_home_60.png" alt="app home page - mobile">
+                </div>
+                <div>
+                    <p id="paragraphAboutDescription">MyCaddy&trade; is a contracting platform that allows players to connect directly to caddies to provide services. Players can book services for single players, groups of all sizes, including corporate events and PGA Pro Ams. There are currently many world-renowned golf courses in Southern California and beyond that allow players to bring a caddy to their golf course through our platform.</p>
+                    <div id="socials">
+                        <a href="https://www.facebook.com/mycaddygolf/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/mycaddyapp/" class="fa fa-instagram"></a>
+                        <a href="maito:contact@mycaddy.org" class="fa fa-envelope"></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class='embedsocial-instagram' data-ref="3cfa4a953020a9fb94f8b05891367ef04386b2d7"></div>
+            <script>
+                (function(d, s, id) {
+                    var js;
+                    if (d.getElementById(id)) {
+                        return;
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://embedsocial.com/embedscript/in.js";
+                    d.getElementsByTagName("head")[0].appendChild(js);
+                }(document, "script", "EmbedSocialInstagramScript"));
+            </script>
+
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>&#174;MyCaddy&trade; 2019&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://mycaddyapp.org/terms.php">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://mycaddyapp.org/privacy.php">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a href="https://mycaddyapp.org/agreement.php">Payment Policy</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

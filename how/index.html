@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="How It Works: Professional Caddy Services - MyCaddy App">
+    <title>MyCaddy&trade; - How It Works</title>
+    <link rel="stylesheet" href="../test.css">
+</head>
+
+<body>
+    <div id="header">
+        <ul>
+            <li style="text-align: center;">
+                <a id="a" href="javascript:void(0);" style="font-size:20px; padding: 5px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+            <li id="b" style="text-align: center;">
+                <a href="/" style="font-size:20px; padding: 5px;" class="">MyCaddy&trade;</a>
+            </li>
+            <script>
+                function myFunction() {
+                    if (document.getElementById("h").offsetParent == null) {
+                        document.getElementById("b").style.display = "none";
+                        document.getElementById("h").style.display = "block";
+                        document.getElementById("i").style.display = "block";
+                        document.getElementById("j").style.display = "block";
+                        document.getElementById("k").style.display = "block";
+                        document.getElementById("openAppButtonTitle").style.display = "block";
+                        document.getElementById("a").innerHTML = "&times;";
+                    } else {
+                        document.getElementById("h").style.display = "none";
+                        document.getElementById("i").style.display = "none";
+                        document.getElementById("j").style.display = "none";
+                        document.getElementById("k").style.display = "none";
+                        document.getElementById("openAppButtonTitle").style.display = "none";
+                        document.getElementById("b").style.display = "block";
+                        document.getElementById("a").innerHTML = "&#9776;";
+                    }
+                    console.log("function triggereed");
+                }
+            </script>
+            <li id="h">
+                <a href="/">
+                    <h1>MyCaddy&trade;</h1>
+                </a>
+            </li>
+            <li id="i">
+                <a href="/how">
+                    <h1>How It Works</h1>
+                </a>
+            </li>
+
+            <li id="k">
+                <a href="/about" id="aboutLink">
+                    <h1>About</h1>
+                </a>
+            </li>
+            <li id="j">
+                <a href="/faq" id="mediaLink">
+                    <h1>FAQ</h1>
+                </a>
+            </li>
+            <li id="openAppButtonTitle">
+                <a href="https://mycaddyapp.org/">
+                    <h1>Open App</h1>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="MobileContent">
+        <div id="HowMainShowcase">
+            <h1 id="howTitleThing">How It Works</h1>
+            <br />
+            <h3>I am a:</h3>
+            <div id="chooser">
+                <button id="playerBM" class="choosenB" onclick="document.getElementById('courseM').style.display = 'none';document.getElementById('playerM').style.display = 'block';document.getElementById('caddyM').style.display = 'none';document.getElementById('playerBM').classList.remove('choosenB');document.getElementById('playerBM').classList.add('choosenBU');document.getElementById('caddyBM').classList.remove('choosenBU');document.getElementById('courseBM').classList.remove('choosenBU');document.getElementById('caddyBM').classList.add('choosenB');document.getElementById('courseBM').classList.add('choosenB');">Player</button>
+                <button id="caddyBM" class="choosenB" onclick="document.getElementById('courseM').style.display = 'none';document.getElementById('playerM').style.display = 'none';document.getElementById('caddyM').style.display = 'block';document.getElementById('caddyBM').classList.remove('choosenB');document.getElementById('caddyBM').classList.add('choosenBU');document.getElementById('playerBM').classList.remove('choosenBU');document.getElementById('courseBM').classList.remove('choosenBU');document.getElementById('playerBM').classList.add('choosenB');document.getElementById('courseBM').classList.add('choosenB');">Caddy</button>
+                <button id="courseBM" class="choosenB" onclick="document.getElementById('courseM').style.display = 'block';document.getElementById('playerM').style.display = 'none';document.getElementById('caddyM').style.display = 'none';document.getElementById('courseBM').classList.remove('choosenB');document.getElementById('courseBM').classList.add('choosenBU');document.getElementById('playerBM').classList.remove('choosenBU');document.getElementById('caddyBM').classList.remove('choosenBU');document.getElementById('playerBM').classList.add('choosenB');document.getElementById('caddyBM').classList.add('choosenB');">Course</button>
+            </div>
+            <section id="courseM">
+                <div id="stepsCourse" class="stepsM">
+                    <div class="stepM">
+                        <h3>Step 1:</h3>
+                        <p><a href="https://mycaddyapp.org/course_signup.php">Register</a> your course for a free acoount
+                        </p>
+                        <img src="../images/course_signup.png" alt="sign up">
+                    </div>
+                    <div class="stepM">
+                        <h3>Step 2:</h3>
+                        <p>Allow players to select and <a href="https://mycaddyapp.org/course_jobs.php">book</a> a caddy directly for their round
+                        </p>
+                        <img src="../images/custom2.PNG" alt="post a job request">
+                    </div>
+                    <div class="stepM">
+                        <h3>Step 3:</h3>
+                        <p>Get <a href="https://mycaddyapp.org/notifications.php">notified</a> when a player books a caddy at your golf course via email</a>
+                        </p>
+                        <img src="../images/player_caddyFound.png" alt="caddy applications for your job">
+                    </div>
+                </div>
+            </section>
+            <section id="playerM">
+                <div id="stepsPlayer" class="stepsM">
+                    <div class="stepM">
+                        <h3>Step 1:</h3>
+                        <p><a href="https://mycaddyapp.org/player_signup.php">Sign Up</a> for a free account</p>
+                        <img src="../images/player_signup.png" alt="Player Sign Up Image">
+                    </div>
+                    <div class="stepM">
+                        <h3>Step 2:</h3>
+                        <p>Post a <a href="https://mycaddyapp.org/player_jobs.php">job request</a>
+                        </p>
+                        <img src="../images/player_jobRequests.png" alt="post a job request">
+                    </div>
+                    <div class="stepM">
+                        <h3>Step 3:</h3>
+                        <p>A Caddy will <a href="https://mycaddyapp.org/notifications.php">find</a> you!</a>
+                        </p>
+                        <img src="../images/player_caddyFound.png" alt="caddy applications for your job">
+                    </div>
+                </div>
+            </section>
+            <section id="caddyM">
+                <div id="stepsCaddy" class="stepsM">
+                    <div class="stepM">
+                        <h3>Step 1:</h3>
+                        <p><a href="https://mycaddyapp.org/caddy_signup.php">Register</a> yourself as a caddy with a free account</p>
+                        <img src="../images/caddy_signup.png" alt="sign up">
+                    </div>
+                    <div class="stepM">
+                        <h3>Step 2:</h3>
+                        <p>Set Your own <a href="https://mycaddyapp.org/caddy_availability.php">Schedule</a> or
+                            <a href="https://mycaddyapp.org/caddy_find_job.php">search for availability</a>
+                        </p>
+                        <img src="../images/caddy_openJobs.png" alt="set your schedule">
+                    </div>
+                    <div class="stepM">
+                        <h3>Step 3:</h3>
+                        <p>Receive a <a href="https://mycaddyapp.org/notifications.php">Notification</a> when your session is booked</a>
+                        </p>
+                        <img src="../images/caddy_message.png" alt="player message for hiring">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            document.getElementById('courseM').style.display = 'none';
+            document.getElementById('playerM').style.display = 'block';
+            document.getElementById('caddyM').style.display = 'none';
+            document.getElementById('playerBM').classList.remove('choosenB');
+            document.getElementById('playerBM').classList.add('choosenBU');
+            document.getElementById('caddyBM').classList.remove('choosenBU');
+            document.getElementById('courseBM').classList.remove('choosenBU');
+            document.getElementById('caddyBM').classList.add('choosenB');
+            document.getElementById('courseBM').classList.add('choosenB');
+        </script>
+    </div>
+    <div id="MainContent">
+        <div id="HowMainShowcase">
+            <h1 id="howTitleThing">How It Works</h1>
+            <br />
+            <h3>I am a:</h3>
+            <div id="chooser">
+                <button id="playerB" class="choosenB" onclick="document.getElementById('course').style.display = 'none';document.getElementById('player').style.display = 'block';document.getElementById('caddy').style.display = 'none';document.getElementById('playerB').classList.remove('choosenB');document.getElementById('playerB').classList.add('choosenBU');document.getElementById('caddyB').classList.remove('choosenBU');document.getElementById('courseB').classList.remove('choosenBU');document.getElementById('caddyB').classList.add('choosenB');document.getElementById('courseB').classList.add('choosenB');">Player</button>
+                <button id="caddyB" class="choosenB" onclick="document.getElementById('course').style.display = 'none';document.getElementById('player').style.display = 'none';document.getElementById('caddy').style.display = 'block';document.getElementById('caddyB').classList.remove('choosenB');document.getElementById('caddyB').classList.add('choosenBU');document.getElementById('playerB').classList.remove('choosenBU');document.getElementById('courseB').classList.remove('choosenBU');document.getElementById('playerB').classList.add('choosenB');document.getElementById('courseB').classList.add('choosenB');">Caddy</button>
+                <button id="courseB" class="choosenB" onclick="document.getElementById('course').style.display = 'block';document.getElementById('player').style.display = 'none';document.getElementById('caddy').style.display = 'none';document.getElementById('courseB').classList.remove('choosenB');document.getElementById('courseB').classList.add('choosenBU');document.getElementById('playerB').classList.remove('choosenBU');document.getElementById('caddyB').classList.remove('choosenBU');document.getElementById('playerB').classList.add('choosenB');document.getElementById('caddyB').classList.add('choosenB');">Course</button>
+            </div>
+            <section id="course">
+                <div id="stepsCourse" class="steps">
+                    <div class="step">
+                        <h3>Step 1:</h3>
+                        <p><a href="https://mycaddyapp.org/course_signup.php">Register</a> your course for a free acoount
+                        </p>
+                        <img src="../images/course_signup.png" alt="sign up">
+                    </div>
+                    <div class="step">
+                        <h3>Step 2:</h3>
+                        <p>Allow players to select and <a href="https://mycaddyapp.org/course_jobs.php">book</a> a caddy directly for their round
+                        </p>
+                        <img src="../images/custom2.PNG" alt="post a job request">
+                    </div>
+                    <div class="step">
+                        <h3>Step 3:</h3>
+                        <p>Get <a href="https://mycaddyapp.org/notifications.php">notified</a> when a Caddy applies for your job</a>
+                        </p>
+                        <img src="../images/player_caddyFound.png" alt="caddy applications for your job">
+                    </div>
+                </div>
+            </section>
+            <section id="player">
+                <div id="stepsPlayer" class="steps">
+                    <div class="step">
+                        <h3>Step 1:</h3>
+                        <p><a href="https://mycaddyapp.org/player_signup.php">Sign Up</a> for a free account</p>
+                        <img src="../images/player_signup.png" alt="sign up">
+                    </div>
+                    <div class="step">
+                        <h3>Step 2:</h3>
+                        <p>Post a <a href="https://mycaddyapp.org/player_jobs.php">job request</a>
+                        </p>
+                        <img src="../images/player_jobRequests.png" alt="post a job request">
+                    </div>
+                    <div class="step">
+                        <h3>Step 3:</h3>
+                        <p>A Caddy will <a href="https://mycaddyapp.org/notifications.php">find</a> you!</a>
+                        </p>
+                        <img src="../images/player_caddyFound.png" alt="caddy applications for your job">
+                    </div>
+                </div>
+            </section>
+            <section id="caddy">
+                <div id="stepsCaddy" class="steps">
+                    <div class="step">
+                        <h3>Step 1:</h3>
+                        <p><a href="https://mycaddyapp.org/caddy_signup.php">Register</a> yourself as a caddy with a free account</p>
+                        <img src="../images/caddy_signup.png" alt="sign up">
+                    </div>
+                    <div class="step">
+                        <h3>Step 2:</h3>
+                        <p>Set Your own <a href="https://mycaddyapp.org/caddy_availability.php">Schedule</a> or
+                            <a href="https://mycaddyapp.org/caddy_find_job.php">search for availability</a>
+                        </p>
+                        <img src="../images/caddy_openJobs.png" alt="set your schedule">
+                    </div>
+                    <div class="step">
+                        <h3>Step 3:</h3>
+                        <p>Receive a <a href="https://mycaddyapp.org/notifications.php">Notification</a> when your session is booked</a>
+                        </p>
+                        <img src="../images/caddy_message.png" alt="player message for hiring">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            document.getElementById('course').style.display = 'none';
+            document.getElementById('player').style.display = 'block';
+            document.getElementById('caddy').style.display = 'none';
+            document.getElementById('playerB').classList.remove('choosenB');
+            document.getElementById('playerB').classList.add('choosenBU');
+            document.getElementById('caddyB').classList.remove('choosenBU');
+            document.getElementById('courseB').classList.remove('choosenBU');
+            document.getElementById('caddyB').classList.add('choosenB');
+            document.getElementById('courseB').classList.add('choosenB');
+        </script>
+    </div>
+    <footer>
+        <div>
+            <p>&#174;MyCaddy&trade; 2019&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://mycaddyapp.org/terms.php">Terms
+                    and Conditions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://mycaddyapp.org/privacy.php">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a href="https://mycaddyapp.org/agreement.php">Payment Policy</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
